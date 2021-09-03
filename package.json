@@ -19,6 +19,7 @@
     "react-scripts": "4.0.3",
     "react-transition-group": "^4.4.1",
     "sass": "^1.38.1",
+    "solana-json": "^1.0.2",
     "tailwindcss": "^2.2.7",
     "web-vitals": "^1.1.1"
   },

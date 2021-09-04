@@ -4,11 +4,8 @@
   "description": "A library for storing and retrieving JSON data from the Solana blockchain",
   "main": "solana-json.js",
   "scripts": {
+    "start": "nodemon ./App.js",
     "test": "node ./test.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jamesbachini/Solana-JSON.git"
   },
   "keywords": [
     "Solana",
@@ -23,12 +20,10 @@
   ],
   "dependencies": {
     "@solana/web3.js": "^0.46.0",
-    "buffer-layout": "^1.2.0"
-  },
-  "author": "James Bachini",
-  "homepage": "https://jamesbachini",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/jamesbachini/Solana-JSON/issues"
+    "buffer-layout": "^1.2.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.4",
+    "nodemon": "^2.0.12"
   }
 }

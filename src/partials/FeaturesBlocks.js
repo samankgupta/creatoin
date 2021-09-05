@@ -10,7 +10,7 @@ function FeaturesBlocks() {
   async function updateToken(lmp, username) {
     try {
       console.log(username)
-      const { data } = await axios.post('http://localhost:3001/creators', { "username": username, "coinvalue": lmp }, null);
+      const { data } = await axios.post('https://creatoin-backend.herokuapp.com/creators', { "username": username, "coinvalue": lmp }, null);
     } catch (error) {
       console.log(error.response.data)
     }
